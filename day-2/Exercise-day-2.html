@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 - Model Box</title>
+</head>
+<style>
+    body {
+        margin: 30px;
+        margin-bottom: 120px;
+    }
+
+    .pagination a,
+    button {
+        float: left;
+        padding: 8px 8px;
+    }
+
+    .pagination-btn {
+        width: 60px;
+        height: 35px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .stretch-btn {
+        background-color: rgb(0, 105, 0);
+        color: white;
+        width: 100px;
+        height: 35px;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .stretch-btn:hover {
+        width: 200px;
+        height: 70px;
+    }
+
+    .shadow-btn {
+        background-color: rgb(0, 105, 0);
+        color: white;
+        width: 100px;
+        height: 35px;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .shadow-btn:active {
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
+
+    .k-btn {
+        background-color: rgb(0, 105, 0);
+        color: white;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.15s,
+            margin 0.15s;
+    }
+
+    .k-btn:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+</style>
+
+<body>
+    <div class="pagination">
+        <button class="pagination-btn">Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <button class="pagination-btn">Next</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <h2>4i.Stretch</h2>
+        <button class="stretch-btn">Stretch</button>
+    </div>
+
+    <div>
+        <br>
+        <br><br>
+        <h2>4d. 3D Click</h2>
+        <button class="shadow-btn">Shadow</button>
+    </div>
+
+
+    <div>
+        <br><br><br>
+        <h2>4k. Margin and padding together</h2>
+        <button class="k-btn">One</button>
+        <button class="k-btn">Two</button>
+        <button class="k-btn">Three</button>
+    </div>
+</body>
+
+</html>
