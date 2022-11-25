@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 - Display Block and Inline-Block</title>
+    <style>
+        body {
+            margin-bottom: 120px;
+            font-family: Arial;
+        }
+
+        input {
+            display: block;
+        }
+
+        .para-inline {
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .google-logo {
+            display: block;
+            width: 200px;
+            margin-left: 150px;
+            margin-bottom: 10px;
+        }
+
+        .tbox-7e {
+            font-size: 16px;
+            width: 500px;
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 30px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        }
+
+        .first-name,
+        .last-name {
+            display: inline-block;
+            width: 100px;
+            height: 25px;
+            border-radius: 6px;
+            font-size: 14px;
+            border-style: solid;
+            padding-left: 10px;
+        }
+
+        .email-input {
+            width: 220px;
+            height: 25px;
+            border-radius: 6px;
+            font-size: 14px;
+            border-style: solid;
+            padding-left: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .btn-signup {
+            width: 235px;
+            height: 35px;
+            background-color: rgb(53, 122, 250);
+            color: white;
+            font-size: 15px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .content-8e {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .destination,
+        .location {
+            width: 280px;
+            height: 25px;
+            margin-bottom: 5px;
+            background-color: rgb(240, 240, 240);
+            font-size: 14px;
+            padding: 5px;
+            padding-left: 15px;
+            border: none;
+        }
+
+        .sche-btn,
+        .request-btn {
+            font-size: 12px;
+            margin-top: 15px;
+            height: 35px;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .sche-btn {
+            width: 140px;
+        }
+
+        .request-btn {
+            width: 100px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>8a. Create 2 text boxes and put them on separate lines (using display: block)</h2>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+    <br><br><br>
+    <h2>8b. Create a paragraph and 2 buttons and place them on the same line (using width, display: inline-block and
+        vertical-align: middle)</h2>
+    <div>
+        <p class="para-inline">Thanks for chatting with our customer support. Would you like to take our quick survey?
+        </p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+
+    <br><br><br>
+    <h2>8c. Google search form</h2>
+    <div>
+        <img class="google-logo" src="img/google-logo.png">
+        <input class="tbox-7e" type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <br><br><br>
+    <h1 style="color: red; text-decoration: underline;">Challenge Exercise</h1>
+    <h2>8d. Sign up form</h2>
+    <div class="signup-form">
+        <div>
+            <input class="first-name" type="text" placeholder="First name">
+            <input class="last-name" type="text" placeholder="First name">
+        </div>
+        <input class="email-input" type="text" placeholder="Email">
+        <button class="btn-signup">Sign Up</button>
+    </div>
+
+    <br><br><br>
+    <h2>8e. Uber request-a-ride form</h2>
+    <div>
+        <p class="content-8e">Request a ride now</p>
+        <input class="location" type="text" placeholder="Enter pickup location">
+        <input class="destination" type="text" placeholder="Enter destination">
+        <button class="request-btn">Request now</button>
+        <button class="sche-btn">Schedule for later</button>
+    </div>
+</body>
+
+</html>
