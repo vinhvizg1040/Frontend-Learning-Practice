@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9 The <div> Element</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin-bottom: 100px;
+        }
+
+        .container-9a {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+
+        .container-9b {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            border-radius: 50%;
+        }
+
+        .container-9c {
+            width: 280px;
+            height: 85px;
+            /* background-color: green; */
+            border-style: solid;
+        }
+
+        .container-9c p,
+        .btn-container {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .container-9d {
+            width: 400px;
+            height: 130px;
+            background-color: black;
+        }
+
+        .para-9d-1,
+        .para-9d-2 {
+            padding-left: 20px;
+        }
+
+        .para-9d-1 {
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .para-9d-2 {
+            font-size: 16px;
+            color: #808080;
+        }
+
+        .textbox {
+            font-family: Arial;
+            color: rgb(100, 100, 100);
+            font-size: 20px;
+            margin-left: 10px;
+            border: none;
+            vertical-align: middle;
+        }
+
+        .textbox:focus {
+            outline: none;
+        }
+
+        .tweet-button {
+            background-color: rgb(2, 130, 255);
+            color: white;
+            height: 34px;
+            width: 74px;
+            border-radius: 18px;
+            border: none;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: 8px;
+            vertical-align: middle;
+            margin-left: 50px;
+        }
+
+        .twitter-textbox {
+            margin-top: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+            border-radius: 4px;
+            width: 500px;
+            height: 80px;
+            padding: 10px;
+        }
+
+        .cat-img-4 {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        .container-9f {
+            width: 200px;
+            height: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .img-cat-9f {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            font-size: 14px;
+        }
+
+        .container-info {
+            margin-left: 10px;
+        }
+
+        .name-9f {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 0;
+            cursor: pointer;
+        }
+
+        .name-9f-2 {
+            font-size: 15px;
+            margin-top: 2px;
+            color: #606060;
+            margin-bottom: 0;
+        }
+
+        .btn-add {
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            width: 105px;
+            height: 30px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .google-logo {
+            width: 200px;
+            margin-left: 160px;
+            margin-bottom: 10px;
+        }
+
+        .tbox-7e {
+            font-size: 16px;
+            width: 500px;
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .google-btn button{
+            margin-top: 30px;
+            height: 40px;
+            border: none;
+            font-size: 14px;
+        }
+
+        .btn-search-1 {
+            margin-left: 110px;
+            width: 130px;
+        }
+
+        .btn-search-2 {
+            margin-left: 10px;
+            width: 140px;
+        }
+
+        .google-search-container{
+            margin-left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>9a.</h2>
+    <div class="container-9a"></div>
+    <br><br><br>
+
+    <h2>9b.</h2>
+    <div class="container-9b"></div>
+    <br><br><br>
+
+    <h2>9c.</h2>
+    <div class="container-9c">
+        <p>Satisfied with our service?</p>
+        <div class="btn-container">
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+    </div>
+    <br><br><br>
+
+    <h2>9d.</h2>
+    <div class="container-9d">
+        <p class="para-9d-1">Install Youtube Music</p>
+        <p class="para-9d-2">Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+    <br><br><br>
+
+    <h2>9e.</h2>
+
+    <div class="twitter-textbox">
+        <img class="cat-img-4" src="img/cat.jpg" alt="cat picture 3">
+        <input class="textbox" type="text" placeholder="What's happening?"></input>
+        <button class="tweet-button">Tweet</button>
+    </div>
+    <br><br><br>
+
+    <h1 style="color: red; text-decoration: underline;">Challenge Exercise</h1>
+
+    <h2>9f,g.</h2>
+    <div class="container-9f">
+        <img class="img-cat-9f" src="img/cat.jpg" alt="">
+        <div class="container-info">
+            <p class="name-9f">Oliver</p>
+            <p class="name-9f-2">2 mutual friends</p>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="container-9f">
+        <img class="img-cat-9f" src="img/cat2.jpg" alt="">
+        <div class="container-info">
+            <p class="name-9f">Mimi</p>
+            <p class="name-9f-2">3 mutual friends</p>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="container-9f">
+        <img class="img-cat-9f" src="img/dog.jpg" alt="">
+        <div class="container-info">
+            <p class="name-9f">Rex</p>
+            <p class="name-9f-2">4 mutual friends</p>
+            <button class="btn-add">Add Friend</button>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <h2>9h.</h2>
+    <div class="google-search-container">
+        <img class="google-logo" src="img/google-logo.png">
+        <input class="tbox-7e" type="text" placeholder="Search Google or type a URL">
+        <div class="google-btn">
+            <button class="btn-search-1">Google Search</button>
+            <button class="btn-search-2">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+
+</html>
