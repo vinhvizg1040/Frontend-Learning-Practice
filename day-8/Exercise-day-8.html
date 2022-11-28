@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise day 8 Flex Box</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        }
+
+        .lightblue {
+            background-color: lightblue;
+        }
+
+        .lightcoral {
+            background-color: lightcoral;
+        }
+
+        .div-1-1 {
+            width: 200px;
+        }
+
+        .div-1-2 {
+            width: 75px;
+        }
+
+        .div-2-1 {
+            width: 50px;
+        }
+
+        .div-2-2 {
+            flex: 1;
+        }
+
+        .div-2-3 {
+            width: 75px;
+        }
+
+        .container-3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+
+        .container-4 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            justify-content: space-between;
+            height: 50px;
+            border-style: solid;
+            border-color: gray;
+            align-items: center;
+        }
+
+        .container-5 {
+            margin-top: 30px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 10px;
+            width: 300px;
+            height: 120px;
+            font-size: 16px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .notifications {
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div-1-1 lightblue">200px</div>
+        <div class="div-1-2 lightcoral">75px</div>
+    </div>
+
+    <div class="container">
+        <div class="div-2-1 lightblue">item1</div>
+        <div class="div-2-2 lightcoral">item2</div>
+        <div class="div-2-3 lightblue">item3</div>
+    </div>
+
+    <div class="container-3">
+        <div class="lightblue">item1</div>
+        <div class="lightcoral">item2</div>
+        <div class="lightblue">item3</div>
+        <div class="lightcoral">item3</div>
+    </div>
+
+    <div class="container-4">
+        <div class="lightblue">item1</div>
+        <div class="lightcoral">item2</div>
+    </div>
+
+    <div class="container-5">
+        <div class="flex">
+            <div>Home</div>
+            <div class="notifications">14</div>
+        </div>
+        <div class="flex">
+            <div>Notifications</div>
+            <div class="notifications">3</div>
+        </div>
+        <div class="flex">
+            <div>Messages</div>
+            <div class="notifications">5</div>
+        </div>
+    </div>
+
+    <div class="container-6">
+        
+    </div>
+</body>
+
+</html>
